@@ -4,4 +4,6 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
-cp -r ../conf/* BUILD_DIR/
+bp_dir=$(cd $(dirname $0); cd ..; pwd)
+
+cp -r $bp_dir/conf/* BUILD_DIR/
