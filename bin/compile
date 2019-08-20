@@ -6,4 +6,4 @@ ENV_DIR=$3
 
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
 
-cp -r $bp_dir/conf/* BUILD_DIR/
+cp -r $bp_dir/conf/* $BUILD_DIR/
