@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Symfony config files inject"
+exit 0
